@@ -1,4 +1,4 @@
-import { Home, Gun, Crosshair } from "lucide-react";
+import { Home, Sword, Crosshair } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -14,7 +14,7 @@ export const navItems = [
   {
     title: "Weapons",
     to: "/weapons",
-    icon: <Gun className="h-4 w-4" />,
+    icon: <Sword className="h-4 w-4" />,
     page: <Index />,
   },
   {
